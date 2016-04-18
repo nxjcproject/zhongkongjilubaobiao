@@ -1,0 +1,10 @@
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
