@@ -152,7 +152,7 @@
             // 
             this.codeout.Location = new System.Drawing.Point(479, 18);
             this.codeout.Name = "codeout";
-            this.codeout.Size = new System.Drawing.Size(401, 429);
+            this.codeout.Size = new System.Drawing.Size(466, 429);
             this.codeout.TabIndex = 13;
             this.codeout.Text = "";
             // 
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 459);
+            this.ClientSize = new System.Drawing.Size(967, 464);
             this.Controls.Add(this.codeout);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Units);

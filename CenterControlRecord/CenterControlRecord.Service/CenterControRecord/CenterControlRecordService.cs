@@ -138,10 +138,10 @@ namespace CenterControlRecord.Service.CenterControl
        {
            string connectionString = ConnectionStringFactory.NXJCConnectionString;
            ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
-           string mySql = @"select count(ContrastID) from [dbo].[shift_CenterControlRecordItems] 
+           string mySql = @"select DisplayIndex from [dbo].[shift_CenterControlRecordItems] 
                             where KeyId=@KeyId
                             and Enabled=1
-                            and DataType=1";
+                            and DataType=1  order by DisplayIndex desc";
            SqlParameter myParameter = new SqlParameter("@KeyId", keyId);
            DataTable table = dataFactory.Query(mySql, myParameter);
            int CountNum=Convert.ToInt16(table.Rows[0][0]);
@@ -209,7 +209,7 @@ namespace CenterControlRecord.Service.CenterControl
                string s_Count = "Sum" + c_AList.Rows[cA]["DisplayIndex"].ToString().Trim();
                m_CenterControlTableStructrue.Columns.Add(s_Count,typeof(float));
            }
-   
+  
            //数据处理主程序
            DataTable t_List = GetTableNum(keyId);
            int tCount=t_List.Rows.Count;   //获取表数目
@@ -296,6 +296,37 @@ namespace CenterControlRecord.Service.CenterControl
                m_CenterControlTableStructrue.Rows.Add(mhour);
            }
            return m_CenterControlTableStructrue;
+       }
+       public static DataTable GetTagTable(string KeyID, string DatabaseID, string OrganizationId)
+       {
+           string viewName=GetDCSContrastViewTableName(OrganizationId);
+           string connectionString = ConnectionStringFactory.NXJCConnectionString;
+           ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
+           string mySql = @"select  A.DisplayIndex, B.VariableDescription,A.ContrastID,C.DatabaseID,A.DCSTableName,A.Enabled 
+                            from NXJC.dbo.shift_CenterControlRecordItems A ,{0} B,
+                            NXJC.dbo.shift_CenterControlRecord C
+                            where A.KeyId=@KeyId and A.ContrastID=B.VariableName 
+                            and C.KeyID=@KeyId order by DisplayIndex";
+           mySql= mySql.Replace("{0}", viewName);
+           SqlParameter myParameter = new SqlParameter("@KeyId", KeyID);
+           DataTable table = dataFactory.Query(mySql, myParameter);
+           return table;      
+       
+       }
+       private static string GetDCSContrastViewTableName(string OrganizationId)
+       {
+           string connectionString = ConnectionStringFactory.NXJCConnectionString;
+           ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
+           string mySql = @"select C.MeterDatabase+'.[dbo].[View_DCSContrast]' from 
+			                    (select MeterDataBase from NXJC.dbo.system_Database A,
+			                    (select DatabaseID from NXJC.dbo.system_Organization 
+			                    where OrganizationID=@OrganizationId)B
+			                     where A.DatabaseID =B.DatabaseID) C ";
+           SqlParameter myParameter = new SqlParameter("@OrganizationId", OrganizationId);
+
+           DataTable table = dataFactory.Query(mySql, myParameter);
+           string tableName = table.Rows[0][0].ToString().Trim();
+           return tableName;          
        }
     }
 }

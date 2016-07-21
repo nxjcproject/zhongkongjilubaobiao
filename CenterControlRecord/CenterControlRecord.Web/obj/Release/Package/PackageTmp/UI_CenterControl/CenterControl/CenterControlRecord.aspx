@@ -19,7 +19,14 @@
     <script type="text/javascript" src="/lib/ealib/extend/editCell.js" charset="utf-8"></script>
 
     <script type="text/javascript" src="../js/page/CenterControl/CenterControlRecord.js" charset="utf-8"></script>
-
+     <style type="text/css">
+        .table {
+            border-collapse: collapse;
+        }
+        .table .td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
   <div class="easyui-layout" data-options="fit:true,border:false" style="padding: 5px;">
@@ -55,6 +62,10 @@
                                         onclick="QueryCenterControlReportInfoFun();">查询</a>
                                 </td>
                                 <td>
+                                    <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
+                                        onclick="GetCenterControlReportTagInfoFun();">标签查询</a>
+                                </td>
+                                <td>
                                     <input id="TextBox_OrganizationId" style="width: 10px; visibility: hidden;" />
                                 </td>
                             </tr>
@@ -82,11 +93,16 @@
             </table>
         </div>   
              <div data-options="region:'center',border:false">
-               <div id="contain" style="width: 3400px; height: 1000px; overflow: auto;border-top:20px solid rgb(166, 166, 166);border-right:30px solid rgb(166, 166, 166);border-bottom:20px solid rgb(166, 166, 166);border-left:30px solid rgb(166, 166, 166);padding:30px"></div>               
+               <div id="contain" style="width: 2800px; height: 1000px; overflow: auto;border-top:20px solid rgb(166, 166, 166);border-right:30px solid rgb(166, 166, 166);border-bottom:20px solid rgb(166, 166, 166);border-left:30px solid rgb(166, 166, 166);padding:30px"></div>               
              </div>
             </div>
          </div>
     </div>
+    <div id="dialog_Tag" class="easyui-dialog" title="My Dialog" style="width:800px;height:600px" data-options="closed:true,resizable:true,modal:true">
+        <table id="datagrid_Tag"></table>
+    </div>
+
+
     <form id="form1" runat="server">
     <div>    
     </div>

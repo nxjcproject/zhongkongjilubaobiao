@@ -18,8 +18,8 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             if (!IsPostBack)
             {
                 ////////////////////调试用,自定义的数据授权
-#if DEBUG
-                List<string> m_DataValidIdItems = new List<string>() { "zc_nxjc_byc_byf", "zc_nxjc_qtx" };
+#if DEBUG       
+                List<string> m_DataValidIdItems = new List<string>() { "zc_nxjc_byc_byf", "zc_nxjc_qtx", "zc_nxjc_tsc_tsf", "zc_nxjc_ychc","zc_nxjc_znc_znf" };
                 AddDataValidIdGroup("ProductionOrganization", m_DataValidIdItems);
                 mPageOpPermission = "0000";
 #elif RELEASE
@@ -78,7 +78,13 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
             return json;   
         }
-
+        [WebMethod]
+        public static string GetTagDataJson(string KeyID, string DatabaseID, string OrganizationId)
+       {
+           DataTable table = CenterControlRecordService.GetTagTable(KeyID, DatabaseID, OrganizationId);
+           string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
+           return json;   
+       }
         //[WebMethod]
         //public static string GetRecordData(string mySql)
         //{

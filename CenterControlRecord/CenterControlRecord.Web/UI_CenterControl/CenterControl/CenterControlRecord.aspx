@@ -61,6 +61,10 @@
                                     <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
                                         onclick="QueryCenterControlReportInfoFun();">查询</a>
                                 </td>
+                           <%--     <td>
+                                    <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
+                                        onclick="GetCenterControlReportTagInfoFun();">标签查询</a>
+                                </td>--%>
                                 <td>
                                     <input id="TextBox_OrganizationId" style="width: 10px; visibility: hidden;" />
                                 </td>
@@ -94,6 +98,11 @@
             </div>
          </div>
     </div>
+    <div id="dialog_Tag" class="easyui-dialog" title="My Dialog" style="width:800px;height:600px" data-options="closed:true,resizable:true,modal:true">
+        <table id="datagrid_Tag"></table>
+    </div>
+
+
     <form id="form1" runat="server">
     <div>    
     </div>

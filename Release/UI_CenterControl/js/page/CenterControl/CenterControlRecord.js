@@ -2,6 +2,7 @@
 var m_DatabaseID = "";
 var m_Count = 0;
 var m_TableList = [];
+var m_organizationId = "";
 $(document).ready(function () {
     //LoadProductionType('first');
     //loadOrganisationTree('first');
@@ -16,6 +17,7 @@ $(document).ready(function () {
     //t_url = "";
     //g_templateURL = "/UI_CenterControl/ReportTemplete/" + t_url;
     //$("#contain").load(g_templateURL);
+    LoadTagDatagrid();
 });
 
 function InitDate() {
@@ -51,7 +53,7 @@ function initPageAuthority() {
 }
 function onOrganisationTreeClick(myNode) {
     //alert(myNode.text);
-    var m_organizationId = myNode.OrganizationId;
+    m_organizationId = myNode.OrganizationId;
     $('#TextBox_OrganizationId').attr('value', m_organizationId);  //textbox('setText', myNode.OrganizationId);
     $('#TextBox_OrganizationText').textbox('setText', myNode.text);
     //$('#TextBox_OrganizationType').textbox('setText', myNode.OrganizationType);
@@ -198,5 +200,47 @@ function QueryCenterControlReportInfoFun() {
 }
 function RefreshRecordDataFun()
 { QueryCenterControlReportInfoFun(); }
+
+function LoadTagDatagrid()
+{
+    $('#datagrid_Tag').datagrid({
+        columns:[[
+            { field: 'DisplayIndex', title: '标签号', width: 50 },
+            { field: 'VariableDescription', title: '名称', width: 150 },
+            { field: 'ContrastID', title: '标签名', width: 100, align: 'right' },
+            { field: 'Enabled', title: '是否可见', width: 80, align: 'right' },
+            { field: 'DatabaseID', title: 'DCS数据库', width: 140 },
+            { field: 'DCSTableName', title: 'DCS表名', width: 120 }
+        ]]
+    });
+
+}
+
+function GetCenterControlReportTagInfoFun()
+{
+
+    var OrganizationId= m_organizationId;
+    var KeyID = m_KeyID;
+    var DatabaseID = m_DatabaseID;
+    var m_Time = $('#dbox_QueryDate').datebox('getValue');
+    var m_SumCount = m_Count;
+
+    $.ajax({
+        type: "POST",
+        url: "CenterControlRecord.aspx/GetTagDataJson",
+        data: "{KeyID:'" + KeyID + "',DatabaseID:'" + DatabaseID + "',OrganizationId:'" + OrganizationId + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (msg) {
+            var m_MsgData = jQuery.parseJSON(msg.d);
+            $('#datagrid_Tag').datagrid('loadData', m_MsgData);
+        },
+        error: function () {
+            $.messager.alert('提示', '数据加载错误！');
+        }
+    })
+
+    $('#dialog_Tag').dialog('open');
+}
 
 
