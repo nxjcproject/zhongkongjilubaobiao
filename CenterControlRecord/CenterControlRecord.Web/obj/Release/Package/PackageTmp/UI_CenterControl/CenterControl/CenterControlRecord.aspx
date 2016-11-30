@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterControlRecord.aspx.cs" Inherits="CenterControlRecord.Web.UI_CenterControl.CenterControl.CenterControlRecord" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterControlRecord.aspx.cs" Inherits="CenterControlRecord.Web.UI_CenterControl.CenterControl.CenterControlRecord" %>
 
 <%@ Register Src="../../UI_WebUserControls/OrganizationSelector/OrganisationTree.ascx" TagName="OrganisationTree" TagPrefix="uc1" %>
 
@@ -50,8 +50,8 @@
                                     <input id="comb_ProcessType" class="easyui-combobox" style="width: 100px;"data-options="panelHeight:'auto'" />
                                 </td>                           
                                 <td>操作记录</td>
-                                <td style="width: 120px;">
-                                    <input id="comb_LineType" class="easyui-combobox" style="width: 120px;"data-options="panelHeight:'auto'" />
+                                <td style="width: 100px;">
+                                    <input id="comb_LineType" class="easyui-combobox" style="width: 100px;"data-options="panelHeight:'auto'" />
                                 </td>  
                                   <td>查询日期</td>
                                 <td style="width: 100px;">
@@ -61,10 +61,10 @@
                                     <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
                                         onclick="QueryCenterControlReportInfoFun();">查询</a>
                                 </td>
-                           <%--     <td>
+                                <td>
                                     <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
                                         onclick="GetCenterControlReportTagInfoFun();">标签查询</a>
-                                </td>--%>
+                                </td>
                                 <td>
                                     <input id="TextBox_OrganizationId" style="width: 10px; visibility: hidden;" />
                                 </td>

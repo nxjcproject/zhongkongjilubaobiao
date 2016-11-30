@@ -176,8 +176,8 @@ function QueryCenterControlReportInfoFun() {
             success: function (msg) {
                 var m_MsgData = jQuery.parseJSON(msg.d);
 
-                var m_table = document.getElementById("RecordTable");   //所有黑白表的id
-                for (var m = 0; m < m_MsgData.rows.length; m++)        // 数据表行数
+                var m_table = document.getElementById("RecordTable");
+                for (var m = 0; m < m_MsgData.rows.length; m++)    // 数据表行数
                 {
                     var m_hour = parseInt(m_MsgData.rows[m]["hour"], 10);     //根据hour这列获取“时”
                     var i = $("#" + m_hour).parent().index();

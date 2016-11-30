@@ -202,37 +202,33 @@ namespace CenterControlRecord.Service.CenterControl
            string m_Endtime = time + " 23:59:59";
 
            //创建空DataTable 然后再往里面填数
-           DataTable c_AList = GetCountList(keyId);    //获取标签及显示顺序
+           DataTable c_AList = GetCountList(keyId);
            int cACount = c_AList.Rows.Count;
            for (int cA = 0; cA < cACount; cA++)
            {
                string s_Count = "Sum" + c_AList.Rows[cA]["DisplayIndex"].ToString().Trim();
                m_CenterControlTableStructrue.Columns.Add(s_Count,typeof(float));
            }
-            ////////创建模板表完成
-
+  
            //数据处理主程序
            DataTable t_List = GetTableNum(keyId);
            int tCount=t_List.Rows.Count;   //获取表数目
            for (int t = 0; t < tCount; t++) 
            {
-               string mTableName=t_List.Rows[t]["DCSTableName"].ToString().Trim(); //所要查询的历史表名称
+               string mTableName=t_List.Rows[t]["DCSTableName"].ToString().Trim();
                DataTable c_List=GetCountList(keyId, mTableName);     //获取该表下的列  拼SQL 语句
                int cCount = c_List.Rows.Count;
                string s_sum="";
                for (int c = 0; c < cCount;c++ ) 
                {
-                   s_sum = s_sum + ", ([" + c_List.Rows[c]["ContrastID"].ToString().Trim() + "])" + " as Sum" + c_List.Rows[c]["DisplayIndex"].ToString().Trim();
+                   s_sum = s_sum + ", AVG([" + c_List.Rows[c]["ContrastID"].ToString().Trim() + "])" + " as Sum" + c_List.Rows[c]["DisplayIndex"].ToString().Trim();
                }
-               string selectA = "select A.* from (";
-               string row=",(row_number() over (partition by convert(VARCHAR(2),vDate,108) order by convert(VARCHAR(2),vDate,108))) as group_idx";
-               string last = ")as A where group_idx=1";
                string mSelect = "select convert(VARCHAR(2),vDate,108) as hour";
                string mFrom = " from " + databaseId + ".dbo.History_" + mTableName;
                string mWhere = " where vDate>'" + m_Startime + "' and vDate<'" + m_Endtime + "'";
-               //string mGroupby = " group by convert(VARCHAR(2),vDate,108)";
-               //string mOrderby = " order by convert(VARCHAR(2),vDate,108)";
-               string msql = selectA + mSelect + s_sum + row + mFrom + mWhere + last;
+               string mGroupby = " group by convert(VARCHAR(2),vDate,108)";
+               string mOrderby = " order by convert(VARCHAR(2),vDate,108)";
+               string msql = mSelect + s_sum + mFrom + mWhere + mGroupby + mOrderby;
                string connectionString = ConnectionStringFactory.NXJCConnectionString;
                ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
                string mySql = @msql;
@@ -258,7 +254,7 @@ namespace CenterControlRecord.Service.CenterControl
                                   {
                                       if (table.Rows[nOne]["hour"].ToString() == rName)
                                       {
-                                          m_CenterControlTableStructrue.Rows[n][cName] = table.Rows[nOne][cName];
+                                          m_CenterControlTableStructrue.Rows[nOne][cName] = table.Rows[nOne][cName];
                                       }
                                   }
           
@@ -272,7 +268,7 @@ namespace CenterControlRecord.Service.CenterControl
                                 {
                                     if (table.Rows[mTwo]["hour"].ToString() == rName)
                                     {
-                                        m_CenterControlTableStructrue.Rows[m][cName] = table.Rows[mTwo][cName];
+                                        m_CenterControlTableStructrue.Rows[mTwo][cName] = table.Rows[mTwo][cName];
                                     }
                                 }
 
@@ -331,13 +327,6 @@ namespace CenterControlRecord.Service.CenterControl
            DataTable table = dataFactory.Query(mySql, myParameter);
            string tableName = table.Rows[0][0].ToString().Trim();
            return tableName;          
-       }
-       public static void ExportExcelFile(string myFileType, string myFileName, string myData)
-       {
-           if (myFileType == "xls")
-           {
-               UpDownLoadFiles.DownloadFile.ExportExcelFile(myFileName, myData);
-           }
        }
     }
 }
