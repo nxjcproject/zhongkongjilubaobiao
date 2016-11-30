@@ -6,20 +6,20 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\大川\Desktop\Release</_PublishTargetUrl>
+    <_PublishTargetUrl>E:\NXJC\项目文件\zhongkongjilubaobiao\Release</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/AutoMapper.dll">
       <publishTime>09/06/2015 14:41:41</publishTime>
     </File>
     <File Include="bin/CenterControlRecord.Infrastructrue.dll">
-      <publishTime>04/20/2016 18:13:37</publishTime>
+      <publishTime>09/08/2016 09:43:39</publishTime>
     </File>
     <File Include="bin/CenterControlRecord.Service.dll">
-      <publishTime>04/21/2016 14:35:39</publishTime>
+      <publishTime>09/08/2016 09:43:40</publishTime>
     </File>
     <File Include="bin/CenterControlRecord.Web.dll">
-      <publishTime>04/27/2016 15:23:50</publishTime>
+      <publishTime>09/08/2016 09:43:41</publishTime>
     </File>
     <File Include="bin/EasyUIJsonParser.dll">
       <publishTime>09/06/2015 14:41:41</publishTime>
@@ -4570,7 +4570,7 @@
       <publishTime>03/24/2016 14:56:33</publishTime>
     </File>
     <File Include="UI_CenterControl/CenterControl/CenterControlRecord.aspx">
-      <publishTime>04/20/2016 15:24:12</publishTime>
+      <publishTime>06/18/2016 14:56:00</publishTime>
     </File>
     <File Include="UI_CenterControl/js/page/CenterControl/CenterControlRecord.js">
       <publishTime>04/20/2016 15:22:32</publishTime>
@@ -4662,8 +4662,47 @@
     <File Include="UI_CenterControl/ReportTemplete/report_rawMaterialsPreparation.html">
       <publishTime>03/16/2016 10:30:34</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/1#-CementPrepatation.html">
+      <publishTime>07/03/2016 16:21:15</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/2#-CementPrepatation.html">
+      <publishTime>07/03/2016 16:21:15</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/report_ClinkerOperation.html">
+      <publishTime>07/04/2016 10:51:24</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/report_CoalPreparation.html">
+      <publishTime>07/03/2016 16:29:57</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/report_rawMaterialsPreparation.html">
+      <publishTime>07/04/2016 10:34:22</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2#-ClinkerPreparation01.html">
+      <publishTime>08/19/2016 14:47:39</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2#-ClinkerPreparation02.html">
+      <publishTime>08/19/2016 14:48:32</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/1#_CementPreparation.html">
+      <publishTime>09/06/2016 17:51:50</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/2#_CementPreparation.html">
+      <publishTime>09/06/2016 17:51:50</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_CementPreparation.html">
+      <publishTime>06/18/2016 14:39:54</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_ClinkerPreparation.html">
+      <publishTime>09/06/2016 14:32:19</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_RawMaterialsandcoal.html">
+      <publishTime>09/06/2016 15:27:20</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_Rollingmachine.html">
+      <publishTime>09/06/2016 11:16:36</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>04/27/2016 15:23:52</publishTime>
+      <publishTime>09/08/2016 09:43:45</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterControlRecord.aspx.cs" Inherits="CenterControlRecord.Web.UI_CenterControl.CenterControl.CenterControlRecord" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterControlRecord.aspx.cs" Inherits="CenterControlRecord.Web.UI_CenterControl.CenterControl.CenterControlRecord" %>
 
 <%@ Register Src="../../UI_WebUserControls/OrganizationSelector/OrganisationTree.ascx" TagName="OrganisationTree" TagPrefix="uc1" %>
 
@@ -17,7 +17,7 @@
     <script type="text/javascript" src="/lib/ealib/jquery.easyui.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="/lib/ealib/easyui-lang-zh_CN.js" charset="utf-8"></script>
     <script type="text/javascript" src="/lib/ealib/extend/editCell.js" charset="utf-8"></script>
-
+    <script type="text/javascript" src="/js/common/PrintFile.js" charset="utf-8"></script>
     <script type="text/javascript" src="../js/page/CenterControl/CenterControlRecord.js" charset="utf-8"></script>
      <style type="text/css">
         .table {
@@ -50,8 +50,8 @@
                                     <input id="comb_ProcessType" class="easyui-combobox" style="width: 100px;"data-options="panelHeight:'auto'" />
                                 </td>                           
                                 <td>操作记录</td>
-                                <td style="width: 100px;">
-                                    <input id="comb_LineType" class="easyui-combobox" style="width: 100px;"data-options="panelHeight:'auto'" />
+                                <td style="width: 120px;">
+                                    <input id="comb_LineType" class="easyui-combobox" style="width: 120px;"data-options="panelHeight:'auto'" />
                                 </td>  
                                   <td>查询日期</td>
                                 <td style="width: 100px;">
@@ -76,7 +76,7 @@
                     <td>
                         <table>
                             <tr>
-                                 <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-page_white_excel',plain:true,disabled:true" onclick="ExportFileFun();">导出</a>
+                                 <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-page_white_excel',plain:true" onclick="ExportFileFun();">导出</a>
                                 </td>
                                 <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-printer',plain:true,disabled:true" onclick="PrintFileFun();">打印</a>
                                 </td>
