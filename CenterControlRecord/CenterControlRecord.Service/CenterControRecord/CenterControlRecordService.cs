@@ -158,11 +158,11 @@ namespace CenterControlRecord.Service.CenterControl
            ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
            string mySql = @"select DCSTableName,row_number() over (order by DCSTableName) as id
                                 from [dbo].[shift_CenterControlRecordItems] 
-                                where KeyId=@KeyId and Enabled=1and DataType=1
+                                where KeyId=@KeyId and Enabled=1 and DataType=1 and DCSTableName is not null
                                 group by DCSTableName";
            SqlParameter myParameter = new SqlParameter("@KeyId", keyId);
            DataTable table = dataFactory.Query(mySql, myParameter);
-           return table;
+           return table;                                                                                                                                                                                                                                                                                                        
        }
        public static DataTable GetCountList(string keyId)
        {
@@ -328,6 +328,26 @@ namespace CenterControlRecord.Service.CenterControl
            string tableName = table.Rows[0][0].ToString().Trim();
            return tableName;          
        }
+       public static void ExportExcelFile(string myFileType, string myFileName, string myData)
+       {
+
+           if (myFileType == "xls")
+           {
+               UpDownLoadFiles.DownloadFile.ExportExcelFile(myFileName, myData);         
+           
+                      
+           }
+       
+       
+       
+       
+       
+       }
+
+
+
+
+
     }
 }
 //思路   1.获取表字段个数 2 获取表格式 3 查询各个表的数据 4 拼成DataTable 5 return
