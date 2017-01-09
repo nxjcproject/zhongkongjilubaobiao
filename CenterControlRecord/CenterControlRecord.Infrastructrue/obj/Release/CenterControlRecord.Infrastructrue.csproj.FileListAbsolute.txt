@@ -1,0 +1,9 @@
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\bin\Release\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\bin\Release\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\obj\Release\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord.Web\CenterControlRecord.Infrastructrue\obj\Release\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Release\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Release\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Release\CenterControlRecord.Infrastructrue.dll
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Release\CenterControlRecord.Infrastructrue.pdb
+E:\NXJC\项目文件\CenterControlRecord\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Release\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
