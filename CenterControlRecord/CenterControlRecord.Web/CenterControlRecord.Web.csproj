@@ -43,6 +43,10 @@
       <HintPath>..\..\..\test\Lib\EasyUIJsonParser.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="StatisticalReport.Service, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\StatisticalReport.Service.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -78,6 +82,7 @@
     <None Include="Properties\PublishProfiles\release.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1591,6 +1596,7 @@
     <Content Include="lib\pllib\themes\jquery.jqplot.min.css" />
     <Content Include="test.html" />
     <Content Include="UI_CenterControl\CenterControl\CenterControlRecord.aspx" />
+    <Content Include="UI_CenterControl\js\common\PrintFile.js" />
     <Content Include="UI_CenterControl\js\page\CenterControl\CenterControlRecord.js" />
     <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\1#-QTX.html" />
     <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\shizuishan\1#-ShiZuiShan.html" />
@@ -1622,9 +1628,55 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\report_ClinkerOperation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\report_CoalPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\report_rawMaterialsPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_Rollingmachine.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\1#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\PowerGenerationByWasteHeat.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\4#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\4#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\4#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\4#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\5#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\5#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\5#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_tys\5#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_szsc_szsf\1#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_szsc_szsf\2#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\1#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\1#ClinkerPreparation_1.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\1#ClinkerPreparation_2.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\1#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\1#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#ClinkerPreparation_1.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#ClinkerPreparation_2.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\posuixitong.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#-ClinkerPreparation01.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#-ClinkerPreparation02.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\3#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\3#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\3#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\4#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\4#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\4#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\8#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\9#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\1#report_Rollingmachine.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\1#_CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_Rollingmachine.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#_CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_ClinkerPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_RawMaterialsandcoal.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -1641,7 +1693,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI_CenterControl\js\common\" />
     <Folder Include="UI_CenterControl\ReportTemplete\ClinkerPreparation\ShiZuiShan\" />
   </ItemGroup>
   <ItemGroup>

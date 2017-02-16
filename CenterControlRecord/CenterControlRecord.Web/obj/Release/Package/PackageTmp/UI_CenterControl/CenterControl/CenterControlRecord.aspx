@@ -17,6 +17,7 @@
     <script type="text/javascript" src="/lib/ealib/jquery.easyui.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="/lib/ealib/easyui-lang-zh_CN.js" charset="utf-8"></script>
     <script type="text/javascript" src="/lib/ealib/extend/editCell.js" charset="utf-8"></script>
+    <script type="text/javascript"  src="../js/common/PrintFile.js" charset="utf-8"></script>
 
     <script type="text/javascript" src="../js/page/CenterControl/CenterControlRecord.js" charset="utf-8"></script>
      <style type="text/css">
@@ -30,7 +31,7 @@
 </head>
 <body>
   <div class="easyui-layout" data-options="fit:true,border:false" style="padding: 5px;">
-        <div data-options="region:'west',border:false " style="width: 230px;">
+        <div data-options="region:'west',border:false " style="width: 150px;">
             <uc1:OrganisationTree ID="OrganisationTree_ProductionLine" runat="server" />
         </div>
          <div data-options="region:'center',border:false">
@@ -39,7 +40,7 @@
             <table>
                 <tr>
                     <td>
-                        <table>
+                    <table>
                             <tr>
                                 <td>产线类别</td>
                                 <td style="width: 100px;">
@@ -59,12 +60,13 @@
                                  </td>                            
                                 <td>
                                     <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
-                                        onclick="QueryCenterControlReportInfoFun();">查询</a>
+                                onclick="QueryCenterControlReportInfoFun();">查询</a>
                                 </td>
-                                <td>
+
+                           <%--     <td>
                                     <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
                                         onclick="GetCenterControlReportTagInfoFun();">标签查询</a>
-                                </td>
+                                </td>--%>
                                 <td>
                                     <input id="TextBox_OrganizationId" style="width: 10px; visibility: hidden;" />
                                 </td>
@@ -76,9 +78,10 @@
                     <td>
                         <table>
                             <tr>
-                                 <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-page_white_excel',plain:true,disabled:true" onclick="ExportFileFun();">导出</a>
+                                 <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-page_white_excel',plain:true" onclick="ExportFileFun();">导出</a>
                                 </td>
-                                <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-printer',plain:true,disabled:true" onclick="PrintFileFun();">打印</a>
+                                <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-printer',plain:true" onclick="PrintFileFun();">打印</a> 
+
                                 </td>
                                 <td>
                                     <div class="datagrid-btn-separator"></div>
@@ -86,21 +89,25 @@
                                 <td>
                                     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-reload',plain:true" onclick="RefreshRecordDataFun();">刷新</a>
                                  </td>
+
                             </tr>
                         </table>                           
                       </td>
                 </tr>
             </table>
         </div>   
-             <div data-options="region:'center',border:false">
-               <div id="contain" style="width: 2800px; height: 1000px; overflow: auto;border-top:20px solid rgb(166, 166, 166);border-right:30px solid rgb(166, 166, 166);border-bottom:20px solid rgb(166, 166, 166);border-left:30px solid rgb(166, 166, 166);padding:30px"></div>               
+            <div data-options="region:'center',border:'false'" >
+<%--               <div id="viceContain" data-options="region:'left'" style="height:5000px; width:2800px; z-index:5555; overflow: auto;right:10px;border-top:30px solid rgb(166, 166, 166);border-right:30px solid rgb(166, 166, 166);border-bottom:30px solid rgb(166, 166, 166);border-left:30px solid rgb(166, 166, 166);padding:20px 20px 20px 40px "></div>               --%>
+               <div id="contain" data-options="region:'left'" style="height:auto; overflow: auto;padding:20px 20px 20px 40px "></div>               
              </div>
+
             </div>
          </div>
     </div>
     <div id="dialog_Tag" class="easyui-dialog" title="My Dialog" style="width:800px;height:600px" data-options="closed:true,resizable:true,modal:true">
         <table id="datagrid_Tag"></table>
     </div>
+
 
 
     <form id="form1" runat="server">
