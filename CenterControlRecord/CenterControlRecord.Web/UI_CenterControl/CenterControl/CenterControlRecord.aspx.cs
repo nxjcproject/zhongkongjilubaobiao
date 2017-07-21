@@ -77,11 +77,11 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             return json;
         }
         [WebMethod]
-        public static string GetRecordDataJson(string KeyID, string DatabaseID, string Time)
+        public static string GetRecordDataJson(string KeyID, string DatabaseID, string Time, string countType)
         {
             //DataTable table = CenterControlRecordService.GetTableFieldInfo(KeyID, DatabaseID, Time, m_id, m_DCSTableName);
 
-            DataTable table = CenterControlRecordService.GetAllTableData(KeyID, DatabaseID, Time);
+            DataTable table = CenterControlRecordService.GetAllTableData(KeyID, DatabaseID, Time, countType);
             string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
             return json;        
         }

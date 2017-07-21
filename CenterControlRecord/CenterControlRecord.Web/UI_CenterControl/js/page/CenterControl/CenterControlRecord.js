@@ -176,21 +176,17 @@ function QueryTableCount(KeyId) {
     })
 }
 function QueryCenterControlReportInfoFun() {
-
-
-
     var KeyID = m_KeyID;
     var DatabaseID = m_DatabaseID;
     var m_Time = $('#dbox_QueryDate').datebox('getValue');
     var m_SumCount = m_Count;
-    var st=m_SumCount*51;//根据模板列数获取母版宽度
-    if (KeyID == "" || DatabaseID == "" || m_Time == "" || m_SumCount == "") {
+    var m_countType = $('#countType').combobox('getValue');
+    var st = m_SumCount * 60 + 40;//根据模板列数获取母版宽度
+    if (KeyID == "" || DatabaseID == "" || m_Time == "" || m_SumCount == "" || m_countType == "") {
         $.messager.alert('提示', '请选择对应选项！');
     }
     else {
             LoadHtml(m_KeyID);
-
-
     $("#contain").css("width", st);//设置模板所在母版的宽度
     $("#contain").load(g_templateURL);
     
@@ -201,7 +197,7 @@ function QueryCenterControlReportInfoFun() {
         $.ajax({
             type: "POST",
             url: "CenterControlRecord.aspx/GetRecordDataJson",
-            data: "{KeyID:'" + KeyID + "',DatabaseID:'" + DatabaseID + "',Time:'" + m_Time + "'}",
+            data: "{KeyID:'" + KeyID + "',DatabaseID:'" + DatabaseID + "',Time:'" + m_Time + "',countType:'" + m_countType + "'}",
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             success: function (msg) {

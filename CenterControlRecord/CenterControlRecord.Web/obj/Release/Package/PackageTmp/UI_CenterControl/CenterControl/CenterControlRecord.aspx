@@ -58,30 +58,37 @@
                                 <td style="width: 100px;">
                                     <input id="dbox_QueryDate" type="text" class="easyui-datebox" style="width:100px;" required="required"/>
                                  </td>                            
-                                <td>
-                                    <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
-                                onclick="QueryCenterControlReportInfoFun();">查询</a>
-                                </td>
-
-                           <%--     <td>
+                                <%--<td>
                                     <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
                                         onclick="GetCenterControlReportTagInfoFun();">标签查询</a>
                                 </td>--%>
                                 <td>
                                     <input id="TextBox_OrganizationId" style="width: 10px; visibility: hidden;" />
                                 </td>
-                            </tr>
-                        </table>
+                            </tr>                           
+                    </table>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <table>
                             <tr>
+                                <td>统计类型</td>
+                                <td style="width: 100px;">
+                                    <select id="countType" class="easyui-combobox" style="width: 100px;"data-options="panelHeight:'auto'">
+                                        <option value="avgValue" selected="true">平均值</option>
+                                        <option value="oclockValue">整点值</option>
+                                        <option value="MaxMin">最大差值</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0);" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true"
+                                onclick="QueryCenterControlReportInfoFun();">查询</a>
+                                </td>
+                                <td style="width: 230px;"></td>                                          
                                  <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-page_white_excel',plain:true" onclick="ExportFileFun();">导出</a>
                                 </td>
                                 <td><a href="#" class="easyui-linkbutton" data-options="iconCls:'ext-icon-printer',plain:true" onclick="PrintFileFun();">打印</a> 
-
                                 </td>
                                 <td>
                                     <div class="datagrid-btn-separator"></div>
@@ -89,7 +96,6 @@
                                 <td>
                                     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-reload',plain:true" onclick="RefreshRecordDataFun();">刷新</a>
                                  </td>
-
                             </tr>
                         </table>                           
                       </td>
@@ -97,8 +103,7 @@
             </table>
         </div>   
             <div data-options="region:'center',border:'false'" >
-<%--               <div id="viceContain" data-options="region:'left'" style="height:5000px; width:2800px; z-index:5555; overflow: auto;right:10px;border-top:30px solid rgb(166, 166, 166);border-right:30px solid rgb(166, 166, 166);border-bottom:30px solid rgb(166, 166, 166);border-left:30px solid rgb(166, 166, 166);padding:20px 20px 20px 40px "></div>               --%>
-               <div id="contain" data-options="region:'left'" style="height:auto; overflow: auto;padding:20px 20px 20px 40px "></div>               
+               <div id="contain" data-options="region:'left'" style="height:auto; overflow: auto;padding:40px 40px 40px 40px "></div>               
              </div>
 
             </div>

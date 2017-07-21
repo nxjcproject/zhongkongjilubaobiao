@@ -80,6 +80,10 @@
     <Content Include="lib\pllib\syntaxhighlighter\LGPL-LICENSE" />
     <Content Include="lib\pllib\syntaxhighlighter\MIT-LICENSE" />
     <None Include="Properties\PublishProfiles\release.pubxml" />
+    <None Include="Properties\PublishProfiles\release1.pubxml" />
+    <None Include="Properties\PublishProfiles\release2.pubxml" />
+    <None Include="Properties\PublishProfiles\release3.pubxml" />
+    <None Include="Properties\PublishProfiles\test.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -1598,41 +1602,30 @@
     <Content Include="UI_CenterControl\CenterControl\CenterControlRecord.aspx" />
     <Content Include="UI_CenterControl\js\common\PrintFile.js" />
     <Content Include="UI_CenterControl\js\page\CenterControl\CenterControlRecord.js" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\1#-QTX.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\shizuishan\1#-ShiZuiShan.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\shizuishan\2#-ShiZuiShan.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\4#-TYS.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\report_CementMillOperation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\yinchuan\1#-YiFenChang.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\yinchuan\2#-YiFenChang.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\YinChuan\1#2#-YiFenChang.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\YinChuan\3#4#-YiFenChang.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\RawMaterialsPreparation\yinchuan\1#-YiFenChang.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\yinchuan\4#1#-Lanshan.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CementPreparation\yinchuan\4#2#-Lanshan.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\shizuishan\shizuishan.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\tianshui\1#-TianShui.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\4#-TYS.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\common\report_CemmentPacking.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\QTX.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\tianshui\2#-TianShui.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CemmentPacking\YinChuan\ningdong.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\ClinkerPreparation\tianshui\1#-TianShui.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\ClinkerPreparation\tianshui\2#-TianShui.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\ClinkerPreparation\4#-TYS.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\ClinkerPreparation\report_ClinkerOperation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\CoalPreparation\report_CoalPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\RawMaterialsPreparation\report_rawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\1#CementPacking.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\1#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\1#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\1#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\1#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\2#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\1#-CementPrepatation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\2#-CementPrepatation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\report_ClinkerOperation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\report_CoalPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_klqc_klqf\report_rawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\1#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\1#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\2#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\2#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\ProcessQuantityControl.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_lpsc_lpsf\RawMaterialsPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\1#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#ClinkerPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#CoalPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\2#RollerMill.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#ClinkerPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_qtx_efc\3#CoalPreparation.html" />
@@ -1658,7 +1651,16 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#ClinkerPreparation_2.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#CoalPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\2#RawMaterialsPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\posuixitong.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_tsc_tsf\CrushingSystem.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\BoilerOperationOfWasteHeatPowerStation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\CementPreparation_1.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\CementPreparation_2.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\ClinkerPreparation_1.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\ClinkerPreparation_2.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\RawMaterialsPreparation_1.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\RawMaterialsPreparation_2.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_whc_whf\SteamTurbineOperationOfWasteHeatPowerStation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#-ClinkerPreparation01.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#-ClinkerPreparation02.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#CoalPreparation.html" />
@@ -1671,8 +1673,21 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\4#RawMaterialsPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\8#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\9#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_ndf\1#CementPacking.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_ndf\6#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_ndf\7#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\1#CementPacking.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\1#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\1#ClinkerPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\1#CoalPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\1#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\2#CementPacking.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\2#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\3#CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\4#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\1#report_Rollingmachine.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\1#_CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_RawMaterialsandcoal.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_Rollingmachine.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#_CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_CementPreparation.html" />
@@ -1692,9 +1707,7 @@
       <DependentUpon>CenterControlRecord.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UI_CenterControl\ReportTemplete\ClinkerPreparation\ShiZuiShan\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CenterControlRecord.Infrastructrue\CenterControlRecord.Infrastructrue.csproj">
       <Project>{1a509079-8d0e-424e-afa2-9755e0e4c126}</Project>
