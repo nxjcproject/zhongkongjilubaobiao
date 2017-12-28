@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterControlRecord.aspx.cs" Inherits="CenterControlRecord.Web.UI_CenterControl.CenterControl.CenterControlRecord" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterControlRecord.aspx.cs" Inherits="CenterControlRecord.Web.UI_CenterControl.CenterControl.CenterControlRecord" %>
 
 <%@ Register Src="../../UI_WebUserControls/OrganizationSelector/OrganisationTree.ascx" TagName="OrganisationTree" TagPrefix="uc1" %>
 
@@ -103,7 +103,7 @@
             </table>
         </div>   
             <div data-options="region:'center',border:'false'" >
-               <div id="contain" data-options="region:'left'" style="height:auto; overflow: auto;padding:40px 40px 40px 40px "></div>               
+               <div id="contain" data-options="region:'left'" style="height:auto; overflow: auto;padding:30px 40px 35px 40px "></div>               
              </div>
 
             </div>

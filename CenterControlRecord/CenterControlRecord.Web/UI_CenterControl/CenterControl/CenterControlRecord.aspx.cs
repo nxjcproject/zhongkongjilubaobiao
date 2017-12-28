@@ -20,9 +20,9 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             {
                 ////////////////////调试用,自定义的数据授权
 #if DEBUG       
-                List<string> m_DataValidIdItems = new List<string>() { "zc_nxjc_byc_byf", "zc_nxjc_qtx", "zc_nxjc_tsc_tsf", "zc_nxjc_ychc", "zc_nxjc_znc_znf", "zc_nxjc_klqc_klqf", "zc_nxjc_qtx_efc" };
+                List<string> m_DataValidIdItems = new List<string>() { "zc_nxjc_whsmc_whsmf", "zc_nxjc_szsc_szsf", "zc_nxjc_byc_byf", "zc_nxjc_qtx", "zc_nxjc_tsc_tsf", "zc_nxjc_ychc", "zc_nxjc_znc_znf", "zc_nxjc_klqc_klqf", "zc_nxjc_qtx_efc", "zc_nxjc_lpsc_lpsf" };
                 AddDataValidIdGroup("ProductionOrganization", m_DataValidIdItems);
-                mPageOpPermission = "0000";
+                mPageOpPermission = "1111";
 #elif RELEASE
 #endif
                 this.OrganisationTree_ProductionLine.Organizations = GetDataValidIdGroup("ProductionOrganization");                 //向web用户控件传递数据授权参数

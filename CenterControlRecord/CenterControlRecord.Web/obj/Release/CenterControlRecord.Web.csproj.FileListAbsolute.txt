@@ -78,3 +78,17 @@ C:\Users\Administrator\Desktop\centercontrol\zhongkongjilubaobiao-master\CenterC
 C:\Users\Administrator\Desktop\centercontrol\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\obj\Release\CenterControlRecord.Web.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\centercontrol\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\obj\Release\CenterControlRecord.Web.dll
 C:\Users\Administrator\Desktop\centercontrol\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\obj\Release\CenterControlRecord.Web.pdb
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\CenterControlRecord.Web.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\CenterControlRecord.Web.pdb
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\CenterControlRecord.Infrastructrue.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\CenterControlRecord.Service.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\SqlServerDataAdapter.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\UpDownLoadFiles.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\mDbDataAdaper.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\InternalMemeryRestore.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\AutoMapper.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\CenterControlRecord.Infrastructrue.pdb
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\bin\CenterControlRecord.Service.pdb
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\obj\Release\CenterControlRecord.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\obj\Release\CenterControlRecord.Web.dll
+C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Web\obj\Release\CenterControlRecord.Web.pdb

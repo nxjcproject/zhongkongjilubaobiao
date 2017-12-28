@@ -1,26 +1,20 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=GBK"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        .table {
-            border-collapse: collapse;
+    <style>
+        .td{
+           border: 1px solid black;
         }
-
-            .table .td {
-                border: 1px solid black;
-            }
     </style>
 </head>
 <body>
     <table id="RecordTable" class="table">
-        <caption style="font-size: 14.0pt; font-family: 宋体;"><b>回转窑作记录</b></caption>
-        <tr>
+        <caption style="font-size: 20.0pt; font-family: 宋体; padding-bottom: 10px;"><b>回转窑操作记录</b></caption>
+        <tr style="background-color: #f3f3f3">
             <td class="td" rowspan="5" style="text-align: center; font-size: 12.0pt; font-family: 宋体;width:25px"><b>班<br />次</b></td>
             <td class="td" rowspan="5" style="text-align: center; font-size: 12.0pt; font-family: 宋体;width:25px"><b>时<br />间</b></td>
-            <!--<td class="td" rowspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体;width:25px"><b>班<br />次</b></td>
-            <td class="td" rowspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体;width:25px"><b>时<br />间</b></td>-->
             <td class="td" colspan="9" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>回转窑</b></td>
             <td class="td" colspan="6" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>预热器</b></td>
             <td class="td" colspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>分解炉</b></td>
@@ -28,52 +22,52 @@
             <td class="td" colspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>高温风机</b></td>
             <td class="td" colspan="8" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>篦冷机</b></td>
             <td class="td" colspan="2" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>收尘</b></td>
-            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>窑尾<br />废气<br />CO浓<br />度</b></td>
-            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>窑尾<br />废气<br />O2浓<br />度</b></td>
-            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>熟料<br />温度</b></td>
-            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>熟料<br />入库</b></td>
+            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 11.0pt; font-family: 宋体; "><b>窑尾<br />废气<br />CO<br />浓度</b></td>
+            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 11.0pt; font-family: 宋体; "><b>窑尾<br />废气<br />O2<br />浓度</b></td>
+            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 11.0pt; font-family: 宋体; "><b>熟料<br />温度</b></td>
+            <td class="td" colspan="1" rowspan="3" style="text-align: center; font-size: 11.0pt; font-family: 宋体; "><b>熟料<br />入库</b></td>
         </tr>
-        <tr>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />转<br />速<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>主<br />传<br />电<br />流<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>二<br />次<br />风<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />头<br />负<br />压<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />尾<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />尾<br />负<br />压<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />筒<br />体<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />头<br />喂<br />煤<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />头<br />喂<br />煤<br />风<br />压<br />力<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑<br />尾<br />喂<br />煤<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>预<br />热<br />器<br />喂<br />料<br />量<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>入<br />窑<br />提<br />升<br />机<br />电<br />流<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>C1<br />筒<br />出<br />口<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>C1<br />筒<br />出<br />口<br />压<br />力<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>C5<br />筒<br />下<br />料<br />管<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出<br />口<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出<br />口<br />压<br />力<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>三<br />次<br />风<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出<br />口<br />温<br />度<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出<br />口<br />压<br />力<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>转<br />速<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>电<br />流<br /></b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>阀<br />门<br />开<br />度<br /></b></td>
+        <tr style="background-color: #f3f3f3">
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑转<br />速</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>主传<br />电流</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>二次<br />风温<br />度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑头<br />负压</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑尾<br />温度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑尾<br />负压</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑筒<br />体温<br />度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑头<br />喂煤</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑头<br />喂煤<br />风压<br />力</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑尾<br />喂煤</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>预热<br />器喂<br />料量</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>入窑<br />提升<br />机电<br />流</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>C1筒<br />出口<br />温度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>C1筒<br />出口<br />压力</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>C5筒<br />下料<br />管温<br />度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出口<br />温度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出口<br />压力</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>三次<br />风温<br />度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出口<br />温度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>出口<br />压力</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>转速</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>电流</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>阀门<br />开度</b></td>
             <td class="td" colspan="4" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>篦下压力</b></td>
             <td class="td" colspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>篦床速度</b></td>
             <td class="td" colspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>篦板温度</b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑头电<br />收尘入<br />口温度</b></td>
-            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑尾收<br />尘入口<br />温度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑头<br />电收<br />尘入<br />口温<br />度</b></td>
+            <td class="td" rowspan="2" style="text-align: center; font-size: 10.0pt; font-family: 宋体;width:26px"><b>窑尾<br />收尘<br />入口<br />温度</b></td>
         </tr>
-        <tr>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>一室<br />压力</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>二室<br />压力</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>三室<br />压力</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>四室<br />压力</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>一段</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>二段</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>一段</b></td>
-            <td class="td" colspan="1" style="text-align: center; font-size: 12.0pt; font-family: 宋体; "><b>二段</b></td>
+        <tr style="background-color: #f3f3f3">
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>一室<br />压力</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>二室<br />压力</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>三室<br />压力</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>四室<br />压力</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>一段</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>二段</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>一段</b></td>
+            <td class="td" colspan="1" style="text-align: center; font-size: 10.0pt; font-family: 宋体; "><b>二段</b></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>rpm</b></td>
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>A</b></td>
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>℃</b></td>
@@ -112,7 +106,7 @@
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>℃</b></td>
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>t/h</b></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>1</b></td>
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>2</b></td>
             <td class="td" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman'"><b>3</b></td>
@@ -192,7 +186,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="1" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>1</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -272,7 +266,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="3" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>3</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -352,7 +346,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="5" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>5</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -432,7 +426,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="7" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>7</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -513,7 +507,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="9" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>9</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -593,7 +587,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="11" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>11</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -673,7 +667,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="13" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>13</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -753,7 +747,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="15" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>15</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -834,7 +828,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="17" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>17</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -914,7 +908,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="19" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>19</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -994,7 +988,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="21" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>21</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
@@ -1074,7 +1068,7 @@
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>
         </tr>
-        <tr>
+        <tr style="background-color: #f3f3f3">
             <td class="td" id="23" style="text-align: center;font-size: 10.0pt; font-family: 'Times New Roman';width:18px"><b>23</b></td>
              <td class="td" style="text-align: right;width:60px"></td>
              <td class="td" style="text-align: right;width:60px"></td>

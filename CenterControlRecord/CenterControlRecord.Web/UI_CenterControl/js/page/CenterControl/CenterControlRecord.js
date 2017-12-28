@@ -122,19 +122,11 @@ function RecordNameItem(OrganizationId, ProductionprocessId) {
 //加载报表模板
 function LoadHtml(KeyId) {
     //var winH = $(window).height();
-
-
-
-
     var oBox = document.getElementById("contain");
     oBox.style.border = "30px";      //设置实线宽度
     oBox.style.borderStyle="solid"   //设置边界为实线
     oBox.style.borderColor = "lightgray";  //设置实线颜色为灰色
-    $("#contain").css("width", 'auto');//设置模板宽度为自动
-
-
-
-    
+    $("#contain").css("width", 'auto');//设置模板宽度为自动   
     $.ajax({
         type: "POST",
         url: "CenterControlRecord.aspx/GetHtmlTemplete",
@@ -181,7 +173,8 @@ function QueryCenterControlReportInfoFun() {
     var m_Time = $('#dbox_QueryDate').datebox('getValue');
     var m_SumCount = m_Count;
     var m_countType = $('#countType').combobox('getValue');
-    var st = m_SumCount * 60 + 40;//根据模板列数获取母版宽度
+    var st = m_SumCount * 60 + 180;//根据模板列数获取母版宽度
+    var g_templateURL = null;
     if (KeyID == "" || DatabaseID == "" || m_Time == "" || m_SumCount == "" || m_countType == "") {
         $.messager.alert('提示', '请选择对应选项！');
     }
@@ -229,6 +222,7 @@ function QueryCenterControlReportInfoFun() {
             },
             error: function () {
                 $.messager.alert('提示', '数据加载错误！');
+                $.messager.progress('close');
             }
         })
     }
