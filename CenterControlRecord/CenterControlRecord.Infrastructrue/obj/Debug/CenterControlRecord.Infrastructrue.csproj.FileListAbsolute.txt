@@ -43,3 +43,8 @@ C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\
 C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
 C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
+C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.dll
+C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
+C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
