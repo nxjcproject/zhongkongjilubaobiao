@@ -48,3 +48,8 @@ C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord
 C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
 C:\Users\Administrator\Desktop\20180312\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
