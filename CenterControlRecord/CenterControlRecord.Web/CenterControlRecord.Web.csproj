@@ -1676,15 +1676,6 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_ndf\1#CementPacking.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_ndf\6#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_ndf\7#CementPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\1#CementPacking.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\1#CementPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\1#ClinkerPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\1#CoalPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\1#RawMaterialsPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\2#CementPacking.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\2#CementPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\3#CementPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf_old\4#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\1#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\2#CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_yfcf\3#CementPreparation.html" />
@@ -1696,7 +1687,6 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\1#report_Rollingmachine.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\1#_CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_RawMaterialsandcoal.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2haoreport_RawMaterialsandcoal%28old%29.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_Rollingmachine.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#_CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_CementPreparation.html" />
