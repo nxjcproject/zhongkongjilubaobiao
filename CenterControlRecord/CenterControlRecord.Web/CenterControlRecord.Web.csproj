@@ -1597,7 +1597,6 @@
     <Content Include="lib\pllib\syntaxhighlighter\styles\shThemejqPlot.min.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.min.css" />
-    <Content Include="test.html" />
     <Content Include="UI_CenterControl\CenterControl\CenterControlRecord.aspx" />
     <Content Include="UI_CenterControl\js\common\PrintFile.js" />
     <Content Include="UI_CenterControl\js\page\CenterControl\CenterControlRecord.js" />
