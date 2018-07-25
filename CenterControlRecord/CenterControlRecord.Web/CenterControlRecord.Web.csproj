@@ -1663,7 +1663,8 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#-ClinkerPreparation01.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#-ClinkerPreparation02.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#CoalPreparation.html" />
-    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2#RawMaterialsPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2_RawMaterialsPreparation%28old%29.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\2_RawMaterialsPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\3#ClinkerPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\3#CoalPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_ychc_lsf\3#RawMaterialsPreparation.html" />
@@ -1688,6 +1689,7 @@
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_RawMaterialsandcoal.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#report_Rollingmachine.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\2#_CementPreparation.html" />
+    <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\6_CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_CementPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_ClinkerPreparation.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_znc_znf\report_RawMaterialsandcoal.html" />

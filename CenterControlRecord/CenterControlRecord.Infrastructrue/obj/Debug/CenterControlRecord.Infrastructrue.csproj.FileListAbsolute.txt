@@ -53,3 +53,8 @@ C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterCo
 C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
 C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.csprojResolveAssemblyReference.cache
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Infrastructrue\obj\Debug\CenterControlRecord.Infrastructrue.pdb

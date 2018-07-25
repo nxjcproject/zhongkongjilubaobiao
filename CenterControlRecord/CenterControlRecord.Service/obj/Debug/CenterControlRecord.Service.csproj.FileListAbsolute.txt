@@ -132,3 +132,12 @@ C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterCo
 C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.dll
 C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.pdb
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Service.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Service.pdb
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Infrastructrue.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\UpDownLoadFiles.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\AutoMapper.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.csprojResolveAssemblyReference.cache
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.dll
+G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.pdb
