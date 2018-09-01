@@ -19,10 +19,9 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             if (!IsPostBack)
             {
                 ////////////////////调试用,自定义的数据授权
-#if DEBUG       
+#if DEBUG
                 List<string> m_DataValidIdItems = new List<string>() { "zc_nxjc_whsmc_whsmf", "zc_nxjc_szsc_szsf", "zc_nxjc_byc_byf", "zc_nxjc_qtx", "zc_nxjc_tsc_tsf", "zc_nxjc_ychc", "zc_nxjc_znc_znf", "zc_nxjc_klqc_klqf", "zc_nxjc_qtx_efc", "zc_nxjc_lpsc_lpsf" };
                 AddDataValidIdGroup("ProductionOrganization", m_DataValidIdItems);
-                mPageOpPermission = "1111";
 #elif RELEASE
 #endif
                 this.OrganisationTree_ProductionLine.Organizations = GetDataValidIdGroup("ProductionOrganization");                 //向web用户控件传递数据授权参数
@@ -58,17 +57,13 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             }
         }
         [WebMethod]
-        public static char[] AuthorityControl()
-        {
-            return mPageOpPermission.ToArray();
-        }
-        [WebMethod]
         public static string GetPrcessTypeItem(string myOrganizationId)
         {
             DataTable table = CenterControlRecordService.GetProcessTypeInfo(myOrganizationId);
-            string json=EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
-            return json;       
+            string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
+            return json;
         }
+
         [WebMethod]
         public static string GetRecordNameItem(string myOrganizationId, string ProductionprocessId)
         {
@@ -76,49 +71,18 @@ namespace CenterControlRecord.Web.UI_CenterControl.CenterControl
             string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
             return json;
         }
-        [WebMethod]
-        public static string GetRecordDataJson(string KeyID, string DatabaseID, string Time, string countType)
-        {
-            //DataTable table = CenterControlRecordService.GetTableFieldInfo(KeyID, DatabaseID, Time, m_id, m_DCSTableName);
 
-            DataTable table = CenterControlRecordService.GetAllTableData(KeyID, DatabaseID, Time, countType);
-            string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
-            return json;        
-        }
         [WebMethod]
-        public static string GetHtmlTemplete(string KeyID) {
-            DataTable table = CenterControlRecordService.GetHtmlTempleteTable(KeyID);
-            string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
-            return json;  
-        
-        }
-        [WebMethod]
-        public static string GetSumCount(string KeyID)
+        public static string GetRecordDataJson(string OrganizationId, string ProductionPrcessId, string mRecordType, string Time, string countType)
         {
-            int num = CenterControlRecordService.GetSumCountNum(KeyID);
-            string json = num.ToString();
-            return json;   
-        }
-        [WebMethod]
-        public static string GetTableList(string KeyID) 
-        {
-            DataTable table = CenterControlRecordService.GetTableNum(KeyID);
+            int mSumCount = 0;
+            string mTemplateUrl = null;
+            DataTable table = CenterControlRecordService.GetAllTableData(OrganizationId, ProductionPrcessId, mRecordType, Time, countType, out mSumCount, out mTemplateUrl);
             string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
-            return json;   
+
+            string mInsertJson = ",\"SumCount\":" + mSumCount + ",\"TemplateUrl\":" + "\"" + mTemplateUrl + "\"";
+            string mResultJson = json.Insert(json.Length - 1, mInsertJson);
+            return mResultJson;
         }
-        [WebMethod]
-        public static string GetTagDataJson(string KeyID, string DatabaseID, string OrganizationId)
-       {
-           DataTable table = CenterControlRecordService.GetTagTable(KeyID, DatabaseID, OrganizationId);
-           string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
-           return json;   
-       }
-        //[WebMethod]
-        //public static string GetRecordData(string mySql)
-        //{
-        //    DataTable table = CenterControlRecordService.GetRecordDataTable(mySql);
-        //    string json = EasyUIJsonParser.DataGridJsonParser.DataTableToJson(table);
-        //    return json;        
-        //}
     }
 }

@@ -1,24 +1,12 @@
 ﻿var m_KeyID = "";
 var m_DatabaseID = "";
 var m_Count = 0;
-var m_TableList = [];
 var m_organizationId = "";
+var mProductionPrcessId = "";
+var mRecordType = "";
 
 $(document).ready(function () {
-    //LoadProductionType('first');
-    //loadOrganisationTree('first');
-
-    //$('#TextBox_OrganizationId').textbox('hide');
     InitDate();
-    //LoadEnergyConsumptionData('first');
-    initPageAuthority();
-    //LoadHtml(g_templateURL);
-
-    ///// 测试
-    //t_url = "";
-    //g_templateURL = "/UI_CenterControl/ReportTemplete/" + t_url;
-    //$("#contain").load(g_templateURL);
-    LoadTagDatagrid();
     getbrowser();
 });
 
@@ -27,40 +15,14 @@ function InitDate() {
     var DateString = myDate.getFullYear() + '-' + (myDate.getMonth() + 1) + '-' + (myDate.getDate() - 1);
     $('#dbox_QueryDate').datebox('setValue', DateString);
 }
-//初始化页面的增删改查权限
-function initPageAuthority() {
-    $.ajax({
-        type: "POST",
-        url: "CenterControlRecord.aspx/AuthorityControl",
-        data: "",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        async: false,//同步执行
-        success: function (msg) {
-            var authArray = msg.d;
-            //增加
-            //if (authArray[1] == '0') {
-            //    $("#add").linkbutton('disable');
-            //}
-            //修改
-            if (authArray[2] == '0') {
-                $("#id_save").linkbutton('disable');
-            }
-            //删除
-            //if (authArray[3] == '0') {
-            //    $("#delete").linkbutton('disable');
-            //}
-        }
-    });
-}
+
 function onOrganisationTreeClick(myNode) {
-    //alert(myNode.text);
     m_organizationId = myNode.OrganizationId;
-    $('#TextBox_OrganizationId').attr('value', m_organizationId);  //textbox('setText', myNode.OrganizationId);
+    $('#TextBox_OrganizationId').attr('value', m_organizationId);
     $('#TextBox_OrganizationText').textbox('setText', myNode.text);
-    //$('#TextBox_OrganizationType').textbox('setText', myNode.OrganizationType);
     PrcessTypeItem(m_organizationId);
 }
+
 function PrcessTypeItem(m_OrganizationId) {
     $.ajax({
         type: "POST",
@@ -73,14 +35,13 @@ function PrcessTypeItem(m_OrganizationId) {
             if (m_MsgData.total == 0) {
                 $.messager.alert('提示', '未查询到工序', 'info');
             }
-            //InitializeEnergyConsumptionGrid(m_GridCommonName, m_MsgData);
             $('#comb_ProcessType').combobox({
                 data: m_MsgData.rows,
                 valueField: 'id',
                 textField: 'text',
                 onSelect: function (param) {
-                    var m_productionprocessId = param.value;
-                    RecordNameItem(m_OrganizationId, m_productionprocessId);
+                    mProductionPrcessId = param.id;
+                    RecordNameItem(m_OrganizationId, mProductionPrcessId);
                 }
             });
         },
@@ -89,12 +50,12 @@ function PrcessTypeItem(m_OrganizationId) {
         }
     });
 }
-function RecordNameItem(OrganizationId, ProductionprocessId) {
+function RecordNameItem(OrganizationId, ProductionPrcessId) {
     var m_OrganizationID = OrganizationId;
     $.ajax({
         type: "POST",
         url: "CenterControlRecord.aspx/GetRecordNameItem",
-        data: "{myOrganizationId:'" + OrganizationId + "',ProductionprocessId:'" + ProductionprocessId + "'}",
+        data: "{myOrganizationId:'" + m_OrganizationID + "',ProductionprocessId:'" + ProductionPrcessId + "'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (msg) {
@@ -107,10 +68,7 @@ function RecordNameItem(OrganizationId, ProductionprocessId) {
                 valueField: 'id',
                 textField: 'text',
                 onSelect: function (param) {
-                    m_KeyID = param.KeyID;
-                    m_DatabaseID = param.DatabaseID;
-                    QueryTableCount(m_KeyID);
-
+                    mRecordType = param.id;
                 }
             });
         },
@@ -119,84 +77,44 @@ function RecordNameItem(OrganizationId, ProductionprocessId) {
         }
     });
 }
+
 //加载报表模板
-function LoadHtml(KeyId) {
-    //var winH = $(window).height();
+function LoadHtml(m_SumCount) {
     var oBox = document.getElementById("contain");
     oBox.style.border = "30px";      //设置实线宽度
-    oBox.style.borderStyle="solid"   //设置边界为实线
-    oBox.style.borderColor = "lightgray";  //设置实线颜色为灰色
-    $("#contain").css("width", 'auto');//设置模板宽度为自动   
-    $.ajax({
-        type: "POST",
-        url: "CenterControlRecord.aspx/GetHtmlTemplete",
-        data: "{KeyID:'" + KeyId + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (msg) {
-            var m_MsgData = jQuery.parseJSON(msg.d);
-            if (m_MsgData.rows[0]["TemplateUrl"] == "") {
-                $.messager.alert('提示', '未查询到该记录的模板！');
-            }
-            t_url = m_MsgData.rows[0]["TemplateUrl"];
-            g_templateURL = "/UI_CenterControl/ReportTemplete/" + t_url;
-            //$("#contain").empty();
-            $("#contain").load(g_templateURL);
-            var mwidth = $("#RecordTable").css('width');
-        },
-        error: function () {
-            $.messager.alert('提示', '记录模板加载失败！');
-        }
-    })
-
-}
-
-function QueryTableCount(KeyId) {
-    $.ajax({
-        type: "POST",
-        url: "CenterControlRecord.aspx/GetSumCount",
-        data: "{KeyID:'" + KeyId + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (msg) {
-            var m_MsgData = jQuery.parseJSON(msg.d);
-            m_Count = m_MsgData;
-        },
-        error: function () {
-            $.messager.alert('提示', '未能加载字段个数！');
-        }
-    })
-}
-function QueryCenterControlReportInfoFun() {
-    var KeyID = m_KeyID;
-    var DatabaseID = m_DatabaseID;
-    var m_Time = $('#dbox_QueryDate').datebox('getValue');
-    var m_SumCount = m_Count;
-    var m_countType = $('#countType').combobox('getValue');
-    var st = m_SumCount * 60 + 180;//根据模板列数获取母版宽度
-    var g_templateURL = null;
-    if (KeyID == "" || DatabaseID == "" || m_Time == "" || m_SumCount == "" || m_countType == "") {
-        $.messager.alert('提示', '请选择对应选项！');
-    }
-    else {
-            LoadHtml(m_KeyID);
+    oBox.style.borderStyle = "solid"   //设置边界为实线
+    oBox.style.borderColor = "lightgray";  //设置实线颜色为灰色   
+    var st = m_SumCount * 60 + 180;//根据模板列数获取母版宽度 
     $("#contain").css("width", st);//设置模板所在母版的宽度
-    $("#contain").load(g_templateURL);
-    
+}
+
+function QueryCenterControlReportInfoFun() {
+    var m_Time = $('#dbox_QueryDate').datebox('getValue');
+    var m_countType = $('#countType').combobox('getValue');
+
     var win = $.messager.progress({
         title: '请稍后',
         msg: '数据载入中...'
     });
-        $.ajax({
-            type: "POST",
-            url: "CenterControlRecord.aspx/GetRecordDataJson",
-            data: "{KeyID:'" + KeyID + "',DatabaseID:'" + DatabaseID + "',Time:'" + m_Time + "',countType:'" + m_countType + "'}",
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            success: function (msg) {
-                $.messager.progress('close');
-                var m_MsgData = jQuery.parseJSON(msg.d);
-
+    $.ajax({
+        type: "POST",
+        url: "CenterControlRecord.aspx/GetRecordDataJson",
+        data: "{OrganizationId:'" + m_organizationId + "',ProductionPrcessId:'" + mProductionPrcessId + "',mRecordType:'" + mRecordType + "',Time:'" + m_Time + "',countType:'" + m_countType + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (msg) {
+            $.messager.progress('close');
+            var m_MsgData = jQuery.parseJSON(msg.d);
+            m_SumCount = m_MsgData.SumCount;
+            m_TemplateUrl = m_MsgData.TemplateUrl;
+            if (m_TemplateUrl == undefined || m_TemplateUrl == null || m_TemplateUrl == "") {
+                $.messager.alert('提示', '该时间无中控记录');
+                return;
+            }
+            var g_templateURL = "/UI_CenterControl/ReportTemplete/" + m_TemplateUrl;
+            LoadHtml(m_SumCount);
+            
+            $("#contain").load(g_templateURL, function () {
                 var m_table = document.getElementById("RecordTable");   //所有黑白表的id
                 for (var m = 0; m < m_MsgData.rows.length; m++)        // 数据表行数
                 {
@@ -207,87 +125,29 @@ function QueryCenterControlReportInfoFun() {
                         if (m_MsgData.rows[m]["Sum" + n] != undefined) {
                             var m_Cell = m_table.rows[i].cells[j + n];
                             var myData = m_MsgData.rows[m]["Sum" + n];
-                            //if (myData == "") {
-                            //    var value = myData;
-                            //}
-                            //else {
-                            //    value = Number(myData).toFixed(2);
-                            //}
-                            //var value = Number(myData).toFixed(2) == NaN ? myData : Number(myData).toFixed(2); //这个段代码会使空值变为0.00
                             var value = myData == "" ? myData : Number(myData).toFixed(2);
                             m_Cell.innerText = value;
                         }
                     }
                 }
-            },
-            error: function () {
-                $.messager.alert('提示', '数据加载错误！');
-                $.messager.progress('close');
-            }
-        })
-    }
-
-   
-}
-function RefreshRecordDataFun()
-{ QueryCenterControlReportInfoFun(); }
-
-function LoadTagDatagrid() {
-    $('#datagrid_Tag').datagrid({
-        columns: [[
-            { field: 'DisplayIndex', title: '标签号', width: 50 },
-            { field: 'VariableDescription', title: '名称', width: 150 },
-            { field: 'ContrastID', title: '标签名', width: 100, align: 'right' },
-            { field: 'Enabled', title: '是否可见', width: 80, align: 'right' },
-            { field: 'DatabaseID', title: 'DCS数据库', width: 140 },
-            { field: 'DCSTableName', title: 'DCS表名', width: 120 }
-        ]]
-    });
-
-}
-
-function GetCenterControlReportTagInfoFun() {
-
-    var OrganizationId = m_organizationId;
-    var KeyID = m_KeyID;
-    var DatabaseID = m_DatabaseID;
-    var m_Time = $('#dbox_QueryDate').datebox('getValue');
-    var m_SumCount = m_Count;
-
-    $.ajax({
-        type: "POST",
-        url: "CenterControlRecord.aspx/GetTagDataJson",
-        data: "{KeyID:'" + KeyID + "',DatabaseID:'" + DatabaseID + "',OrganizationId:'" + OrganizationId + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (msg) {
-            var m_MsgData = jQuery.parseJSON(msg.d);
-            $('#datagrid_Tag').datagrid('loadData', m_MsgData);
+            });
+        },
+        beforeSend: function () {
+            win;
         },
         error: function () {
             $.messager.alert('提示', '数据加载错误！');
+            $.messager.progress('close');
         }
     })
-
-    $('#dialog_Tag').dialog('open');
 }
-var nowBrowser = '';
-//function InitializeIframe() {
-//    if (BrowserName == "IE") {
-//        nowBrowser = "ie";
-//    }
-//    if (BrowserName == "FF") {
-//        nowBrowser = "firefox";
-//    }
-//}
+
+function RefreshRecordDataFun() {
+    QueryCenterControlReportInfoFun();
+}
+
 //获得浏览器名称
 function getbrowser() {
-    //var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
-    //var isOpera = userAgent.indexOf("Opera") > -1;
-    //if (isOpera) { return "Opera" }; //判断是否Opera浏览器
-    //if (userAgent.indexOf("Firefox") > -1) { return "FF"; } //判断是否Firefox浏览器
-    //if (userAgent.indexOf("Safari") > -1) { return "Safari"; } //判断是否Safari浏览器
-    //if (userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera) { return "IE"; };var brow = $.browser;
     var brow = $.browser;
     if (brow.msie) {
         BrowserName = "IE";
@@ -316,6 +176,8 @@ function getbrowser() {
     }
     //判断是否IE浏览器
 }
+
+var nowBrowser = '';
 function ExportFileFun() {
     if (BrowserName == "IE") {
         nowBrowser = "ie";

@@ -14,13 +14,13 @@
       <publishTime>09/05/2017 01:30:04</publishTime>
     </File>
     <File Include="bin/CenterControlRecord.Infrastructrue.dll">
-      <publishTime>12/21/2017 17:42:59</publishTime>
+      <publishTime>08/17/2018 11:28:42</publishTime>
     </File>
     <File Include="bin/CenterControlRecord.Service.dll">
-      <publishTime>12/21/2017 17:43:00</publishTime>
+      <publishTime>08/26/2018 21:31:00</publishTime>
     </File>
     <File Include="bin/CenterControlRecord.Web.dll">
-      <publishTime>12/21/2017 17:43:01</publishTime>
+      <publishTime>08/26/2018 21:31:01</publishTime>
     </File>
     <File Include="bin/EasyUIJsonParser.dll">
       <publishTime>09/05/2017 01:30:04</publishTime>
@@ -4577,13 +4577,13 @@
       <publishTime>09/05/2017 01:30:04</publishTime>
     </File>
     <File Include="UI_CenterControl/CenterControl/CenterControlRecord.aspx">
-      <publishTime>12/21/2017 09:54:57</publishTime>
+      <publishTime>08/21/2018 17:32:16</publishTime>
     </File>
     <File Include="UI_CenterControl/js/common/PrintFile.js">
       <publishTime>09/05/2017 01:30:04</publishTime>
     </File>
     <File Include="UI_CenterControl/js/page/CenterControl/CenterControlRecord.js">
-      <publishTime>12/21/2017 16:52:16</publishTime>
+      <publishTime>08/22/2018 13:55:10</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/CementPreparation/1#-QTX.html">
       <publishTime>04/05/2017 08:36:12</publishTime>
@@ -4667,7 +4667,7 @@
       <publishTime>12/20/2017 18:27:41</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/1#ClinkerPreparation.html">
-      <publishTime>12/19/2017 17:49:04</publishTime>
+      <publishTime>03/18/2018 13:41:18</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/1#CoalPreparation.html">
       <publishTime>12/19/2017 17:54:37</publishTime>
@@ -4678,11 +4678,80 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/2#CementPreparation.html">
       <publishTime>12/19/2017 18:07:20</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/CementPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/CementPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/CementPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/CementPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/ClinkerPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/ClinkerPreparation01_20180220.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/ClinkerPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/CoalPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/CoalPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/RawMaterialsPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/RawMaterialsPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_byc_byf/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/1#-CementPrepatation.html">
       <publishTime>12/20/2017 09:12:22</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/2#-CementPrepatation.html">
       <publishTime>12/19/2017 19:05:12</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/BoilerOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/CementPrepatation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/CementPrepatation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/CementPrepatation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/CementPrepatation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/ClinkerOperation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/ClinkerOperation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/CoalPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/CoalPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/rawMaterialsPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/rawMaterialsPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/report_ClinkerOperation.html">
       <publishTime>12/20/2017 09:03:31</publishTime>
@@ -4693,29 +4762,32 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/report_rawMaterialsPreparation.html">
       <publishTime>12/20/2017 09:09:58</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_klqc_klqf/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/1#CementPreparation.html">
-      <publishTime>12/20/2017 09:18:11</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/1#ClinkerPreparation.html">
-      <publishTime>12/20/2017 10:11:16</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/2#CementPreparation.html">
-      <publishTime>12/20/2017 09:25:25</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/2#ClinkerPreparation.html">
-      <publishTime>12/20/2017 10:04:00</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/CoalPreparation.html">
-      <publishTime>12/20/2017 09:56:27</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/ProcessQuantityControl.html">
-      <publishTime>12/20/2017 09:58:26</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/RawMaterialsPreparation.html">
-      <publishTime>12/20/2017 10:16:38</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_lpsc_lpsf/RawMaterialsPreparation（old）.html">
-      <publishTime>09/05/2017 01:30:04</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/1#CementPreparation.html">
       <publishTime>12/20/2017 10:31:00</publishTime>
@@ -4724,55 +4796,196 @@
       <publishTime>12/20/2017 10:33:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/2#ClinkerPreparation.html">
-      <publishTime>12/20/2017 11:05:00</publishTime>
+      <publishTime>03/21/2018 16:02:49</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/2#CoalPreparation.html">
-      <publishTime>12/20/2017 11:09:48</publishTime>
+      <publishTime>04/08/2018 10:52:01</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/2#RawMaterialsPreparation.html">
       <publishTime>12/20/2017 11:16:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/2#RollerMill.html">
-      <publishTime>12/20/2017 11:20:21</publishTime>
+      <publishTime>04/13/2018 15:38:25</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/3#CementPreparation.html">
       <publishTime>12/20/2017 11:24:29</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/3#ClinkerPreparation.html">
-      <publishTime>12/20/2017 11:27:41</publishTime>
+      <publishTime>03/22/2018 16:04:16</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/3#CoalPreparation.html">
-      <publishTime>12/20/2017 11:30:45</publishTime>
+      <publishTime>03/22/2018 13:58:33</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/3#RawMaterialsPreparation.html">
-      <publishTime>12/20/2017 11:39:57</publishTime>
+      <publishTime>03/22/2018 15:22:09</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/BoilerOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/BoilerOperationOfWasteHeatPowerStation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CementPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CementPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CementPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CementPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CementPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CementPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/ClinkerPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/ClinkerPreparation02_20180401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/ClinkerPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/ClinkerPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/ClinkerPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CoalPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CoalPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CoalPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/CoalPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/PowerGenerationByWasteHeat.html">
-      <publishTime>12/20/2017 11:46:18</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/RawMaterialsPreparation02%28old%29.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/RawMaterialsPreparation02_20140401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/RawMaterialsPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/RawMaterialsPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/RawMaterialsPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_efc/SteamTurbineOperationOfWasteHeatPowerStation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/4#CementPreparation.html">
-      <publishTime>12/20/2017 13:58:49</publishTime>
+      <publishTime>05/03/2018 10:50:25</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/4#ClinkerPreparation.html">
-      <publishTime>12/20/2017 15:04:32</publishTime>
+      <publishTime>03/20/2018 22:28:00</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/4#CoalPreparation.html">
-      <publishTime>12/20/2017 14:42:43</publishTime>
+      <publishTime>04/13/2018 15:08:47</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/4#RawMaterialsPreparation.html">
       <publishTime>12/20/2017 14:42:43</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/5#CementPreparation.html">
-      <publishTime>12/20/2017 14:31:55</publishTime>
+      <publishTime>05/03/2018 11:08:12</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/5#ClinkerPreparation.html">
-      <publishTime>12/20/2017 15:02:58</publishTime>
+      <publishTime>04/03/2018 11:26:50</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/5#CoalPreparation.html">
-      <publishTime>12/20/2017 14:28:33</publishTime>
+      <publishTime>04/13/2018 15:18:58</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/5#RawMaterialsPreparation.html">
       <publishTime>12/20/2017 14:42:43</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/BoilerOperationOfWasteHeatPowerStation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/BoilerOperationOfWasteHeatPowerStation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CementPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CementPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CementPreparation05_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CementPreparation05_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/ClinkerPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/ClinkerPreparation04_20180401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/ClinkerPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/ClinkerPreparation05_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/ClinkerPreparation05_20180401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/ClinkerPreparation05_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CoalPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CoalPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CoalPreparation05_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/CoalPreparation05_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/RawMaterialsPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/RawMaterialsPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/RawMaterialsPreparation05_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/RawMaterialsPreparation05_20180401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/RawMaterialsPreparation05_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/SteamTurbineOperationOfWasteHeatPowerStation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_qtx_tys/SteamTurbineOperationOfWasteHeatPowerStation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_szsc_szsf/1#CementPreparation.html">
       <publishTime>12/20/2017 18:11:47</publishTime>
@@ -4780,14 +4993,26 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_szsc_szsf/2#CementPreparation.html">
       <publishTime>12/20/2017 18:33:57</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_szsc_szsf/CementPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_szsc_szsf/CementPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_szsc_szsf/CementPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_szsc_szsf/CementPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/1#CementPreparation.html">
       <publishTime>12/21/2017 09:23:31</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/1#ClinkerPreparation_1.html">
-      <publishTime>12/21/2017 09:36:16</publishTime>
+      <publishTime>04/02/2018 16:43:25</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/1#ClinkerPreparation_2.html">
-      <publishTime>12/21/2017 09:29:09</publishTime>
+      <publishTime>04/04/2018 10:07:26</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/1#CoalPreparation.html">
       <publishTime>12/21/2017 09:29:09</publishTime>
@@ -4799,7 +5024,7 @@
       <publishTime>12/21/2017 09:29:09</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/2#ClinkerPreparation_1.html">
-      <publishTime>12/21/2017 09:45:48</publishTime>
+      <publishTime>04/08/2018 10:20:43</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/2#ClinkerPreparation_2.html">
       <publishTime>12/21/2017 09:29:09</publishTime>
@@ -4810,20 +5035,122 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/2#RawMaterialsPreparation.html">
       <publishTime>12/21/2017 09:29:09</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/BoilerOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CementPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CementPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CementPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CementPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation01_1_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation01_1_20180310.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation01_1_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation01_2_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation01_2_20180310.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation01_2_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation02_1_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation02_1_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation02_2_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/ClinkerPreparation02_2_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CoalPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CoalPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CoalPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CoalPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/CrushingSystem.html">
       <publishTime>12/21/2017 09:54:42</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/posuixitong.html">
       <publishTime>04/05/2017 09:14:23</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/RawMaterialsPreparation01_1_20180719.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/RawMaterialsPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/RawMaterialsPreparation01_2_20180719.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/RawMaterialsPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/RawMaterialsPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_tsc_tsf/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/BoilerOperationOfWasteHeatPowerStation.html">
-      <publishTime>12/21/2017 10:00:18</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/BoilerOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CementPreparation01_1_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CementPreparation01_1_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CementPreparation01_2_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CementPreparation01_2_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CementPreparation_1.html">
       <publishTime>12/21/2017 10:03:34</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CementPreparation_2.html">
       <publishTime>12/21/2017 11:02:44</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/ClinkerPreparation01_1_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/ClinkerPreparation01_1_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/ClinkerPreparation01_2_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/ClinkerPreparation01_2_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/ClinkerPreparation_1.html">
       <publishTime>12/21/2017 11:03:27</publishTime>
@@ -4834,6 +5161,24 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CoalPreparation.html">
       <publishTime>12/21/2017 10:41:45</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CoalPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/CoalPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/RawMaterialsPreparation01_1_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/RawMaterialsPreparation01_1_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/RawMaterialsPreparation01_2_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/RawMaterialsPreparation01_2_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/RawMaterialsPreparation_1.html">
       <publishTime>12/21/2017 10:47:40</publishTime>
     </File>
@@ -4841,13 +5186,16 @@
       <publishTime>12/21/2017 10:47:40</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/SteamTurbineOperationOfWasteHeatPowerStation.html">
-      <publishTime>12/21/2017 10:47:29</publishTime>
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_whc_whf/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2#-ClinkerPreparation01.html">
-      <publishTime>12/21/2017 11:08:15</publishTime>
+      <publishTime>07/05/2018 14:07:15</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2#-ClinkerPreparation02.html">
-      <publishTime>12/21/2017 11:11:46</publishTime>
+      <publishTime>04/09/2018 20:22:49</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2#CoalPreparation.html">
       <publishTime>12/21/2017 11:18:08</publishTime>
@@ -4855,8 +5203,14 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2#RawMaterialsPreparation.html">
       <publishTime>12/21/2017 13:56:14</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2_RawMaterialsPreparation%28old%29.html">
+      <publishTime>12/21/2017 13:56:14</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/2_RawMaterialsPreparation.html">
+      <publishTime>07/25/2018 09:48:12</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/3#ClinkerPreparation.html">
-      <publishTime>12/21/2017 11:30:42</publishTime>
+      <publishTime>03/20/2018 10:23:30</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/3#CoalPreparation.html">
       <publishTime>12/21/2017 13:43:07</publishTime>
@@ -4865,7 +5219,7 @@
       <publishTime>12/21/2017 13:56:14</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/4#ClinkerPreparation.html">
-      <publishTime>12/21/2017 11:44:21</publishTime>
+      <publishTime>07/05/2018 13:34:42</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/4#CoalPreparation.html">
       <publishTime>12/21/2017 13:56:14</publishTime>
@@ -4879,14 +5233,119 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/9#CementPreparation.html">
       <publishTime>12/21/2017 13:42:35</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/BoilerOperationOfWasteHeatPowerStation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/BoilerOperationOfWasteHeatPowerStation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CementPreparation08_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CementPreparation08_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CementPreparation09_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CementPreparation09_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation02_1_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation02_1_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation02_2_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation02_2_20180402.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation02_2_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation03_20180401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation04_20180401.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/ClinkerPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CoalPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CoalPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CoalPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CoalPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CoalPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/CoalPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/RawMaterialsPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/RawMaterialsPreparation02_20180610.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/RawMaterialsPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/RawMaterialsPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/RawMaterialsPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/RawMaterialsPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:35</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/SteamTurbineOperationOfWasteHeatPowerStation02_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_lsf/SteamTurbineOperationOfWasteHeatPowerStation03_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/1#CementPacking.html">
-      <publishTime>12/21/2017 14:12:49</publishTime>
+      <publishTime>08/26/2018 21:30:36</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/6#CementPreparation.html">
-      <publishTime>12/21/2017 14:12:49</publishTime>
+      <publishTime>04/01/2018 20:38:13</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/7#CementPreparation.html">
-      <publishTime>12/21/2017 14:12:49</publishTime>
+      <publishTime>03/31/2018 19:46:02</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/CementPreparation06_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/CementPreparation06_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/CementPreparation07_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_ndf/CementPreparation07_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/1#CementPreparation.html">
       <publishTime>12/21/2017 15:13:42</publishTime>
@@ -4900,17 +5359,62 @@
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/4#CementPreparation.html">
       <publishTime>12/21/2017 15:05:49</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/BoilerOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CementPreparation03_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CementPreparation03_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CementPreparation04_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CementPreparation04_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/ClinkerPreparation01_1_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/ClinkerPreparation01_1_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/ClinkerPreparation01_2_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/ClinkerPreparation01_2_20180403.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/ClinkerPreparation01_2_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CoalPreparation.html">
       <publishTime>12/21/2017 15:05:49</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CoalPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/CoalPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/FiringSystem%281%29.html">
-      <publishTime>12/21/2017 15:05:49</publishTime>
+      <publishTime>03/21/2018 14:13:14</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/FiringSystem%282%29.html">
-      <publishTime>12/21/2017 15:00:18</publishTime>
+      <publishTime>04/04/2018 15:08:09</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/RawMaterialsPreparation.html">
       <publishTime>12/21/2017 15:05:49</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/RawMaterialsPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/RawMaterialsPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_ychc_yfcf_old/1#CementPacking.html">
       <publishTime>09/05/2017 01:30:04</publishTime>
@@ -4946,28 +5450,76 @@
       <publishTime>12/21/2017 16:45:10</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/2#report_RawMaterialsandcoal.html">
-      <publishTime>12/21/2017 16:16:43</publishTime>
+      <publishTime>05/20/2018 11:58:36</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/2#report_Rollingmachine.html">
       <publishTime>12/21/2017 16:45:10</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/2#_CementPreparation.html">
-      <publishTime>12/21/2017 16:42:10</publishTime>
+      <publishTime>05/20/2018 12:17:27</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/2haoreport_RawMaterialsandcoal%28old%29.html">
       <publishTime>12/21/2017 15:58:21</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/6_CementPreparation.html">
+      <publishTime>07/22/2018 13:00:46</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/BoilerOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/CementPreparation01_20180601.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/CementPreparation0203_01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/CementPreparation0203_01_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/CementPreparation0203_02_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/CementPreparation0203_02_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/ClinkerPreparation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/ClinkerPreparation01_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/ClinkerPreparation02_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/ClinkerPreparation02_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/RawMaterialsandcoal01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/RawMaterialsandcoal01_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/RawMaterialsandcoal02_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/RawMaterialsandcoal02_20180801.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_CementPreparation.html">
       <publishTime>12/21/2017 15:58:21</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_ClinkerPreparation.html">
-      <publishTime>12/21/2017 16:16:43</publishTime>
+      <publishTime>05/19/2018 17:35:08</publishTime>
     </File>
     <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/report_RawMaterialsandcoal.html">
       <publishTime>12/21/2017 16:09:44</publishTime>
     </File>
+    <File Include="UI_CenterControl/ReportTemplete/zc_nxjc_znc_znf/SteamTurbineOperationOfWasteHeatPowerStation01_20140101.html">
+      <publishTime>08/26/2018 21:30:36</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>12/21/2017 17:43:04</publishTime>
+      <publishTime>08/26/2018 21:31:07</publishTime>
     </File>
   </ItemGroup>
 </Project>

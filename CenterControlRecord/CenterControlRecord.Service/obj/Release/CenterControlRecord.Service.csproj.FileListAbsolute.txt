@@ -52,3 +52,12 @@ C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\
 C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Service\obj\Release\CenterControlRecord.Service.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Service\obj\Release\CenterControlRecord.Service.dll
 C:\Users\Administrator\Desktop\20171219中控修改\zhongkongjilubaobiao-master\CenterControlRecord\CenterControlRecord.Service\obj\Release\CenterControlRecord.Service.pdb
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Release\CenterControlRecord.Service.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Release\CenterControlRecord.Service.pdb
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Release\CenterControlRecord.Infrastructrue.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Release\UpDownLoadFiles.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Release\AutoMapper.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Release\CenterControlRecord.Infrastructrue.pdb
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Release\CenterControlRecord.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Release\CenterControlRecord.Service.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Release\CenterControlRecord.Service.pdb
