@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CenterControRecord\CenterControlRecordLogService.cs" />
     <Compile Include="CenterControRecord\CenterControlRecordService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

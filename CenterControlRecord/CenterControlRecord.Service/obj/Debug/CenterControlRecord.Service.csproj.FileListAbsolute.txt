@@ -141,3 +141,15 @@ G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlR
 G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.csprojResolveAssemblyReference.cache
 G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.dll
 G:\工作\研二项目工作\中控记录表\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.pdb
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\EasyUIJsonParser.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\FileIO.dll
+C:\Users\Administrator\Desktop\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\FormTableConvert.dll
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Service.dll
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Service.pdb
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Infrastructrue.dll
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\UpDownLoadFiles.dll
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\AutoMapper.dll
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\bin\Debug\CenterControlRecord.Infrastructrue.pdb
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.csprojResolveAssemblyReference.cache
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.dll
+G:\NXJCProject\zhongkongjilubaobiao\CenterControlRecord\CenterControlRecord.Service\obj\Debug\CenterControlRecord.Service.pdb

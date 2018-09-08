@@ -1598,8 +1598,11 @@
     <Content Include="lib\pllib\themes\jquery.jqplot.css" />
     <Content Include="lib\pllib\themes\jquery.jqplot.min.css" />
     <Content Include="UI_CenterControl\CenterControl\CenterControlRecord.aspx" />
+    <Content Include="UI_CenterControl\CenterControl\CenterControlRecordLog.aspx" />
+    <Content Include="UI_CenterControl\js\common\MergeCell.js" />
     <Content Include="UI_CenterControl\js\common\PrintFile.js" />
     <Content Include="UI_CenterControl\js\page\CenterControl\CenterControlRecord.js" />
+    <Content Include="UI_CenterControl\js\page\CenterControl\CenterControlRecordLog.js" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\CementPreparation01_20140101.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\CementPreparation01_20180801.html" />
     <Content Include="UI_CenterControl\ReportTemplete\zc_nxjc_byc_byf\CementPreparation02_20140101.html" />
@@ -1811,6 +1814,13 @@
     </Compile>
     <Compile Include="UI_CenterControl\CenterControl\CenterControlRecord.aspx.designer.cs">
       <DependentUpon>CenterControlRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI_CenterControl\CenterControl\CenterControlRecordLog.aspx.cs">
+      <DependentUpon>CenterControlRecordLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI_CenterControl\CenterControl\CenterControlRecordLog.aspx.designer.cs">
+      <DependentUpon>CenterControlRecordLog.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
